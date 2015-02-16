@@ -1,0 +1,45 @@
+<!ELEMENT flightmonitor (aircraft*, flight*, flightInstance*)>
+
+
+<!ELEMENT aircraft (seat*)> 
+<!ATTLIST aircraft
+			model 				ID					#REQUIRED
+			seatsNumber			CDATA				#REQUIRED
+>		
+
+<!ELEMENT seat EMPTY>
+<!ATTLIST seat 
+			number			CDATA			#REQUIRED
+>
+
+<!ELEMENT flight EMPTY>
+<!ATTLIST flight
+			number			ID				#REQUIRED
+			from			CDATA			#REQUIRED
+			to				CDATA			#REQUIRED
+			time			CDATA			#REQUIRED
+			
+>
+
+<!ELEMENT flightInstance (passenger*)>
+<!ATTLIST flightInstance
+			number		 	IDREF			#REQUIRED
+			date			CDATA			#REQUIRED
+			status			(BOOKING|ARRIVED|BOARDING|CANCELLED|CHECKINGIN|DEPARTED) 	#REQUIRED
+			gate			CDATA			#REQUIRED
+			delay			CDATA			#REQUIRED
+			model			IDREF			#REQUIRED
+>
+
+<!ELEMENT passenger EMPTY>
+<!ATTLIST passenger
+			boarded			(true|false)			#REQUIRED
+			name			CDATA					#REQUIRED
+			seat			CDATA					#REQUIRED
+>
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flightmonitor SYSTEM "flightInfo.dtd">
+<flightmonitor>
+	<aircraft model = "B747" seatsNumber = "200">
+		<seat number = "14F" />
+		<seat number = "14E" />
+		<seat number = "14D" />
+		<seat number = "14C" />
+		<seat number = "14B" />
+		<seat number = "14A" />
+	</aircraft>
+	<flight number = "XD1231" from = "TRN" to = "MXP" time = "10:00" />
+	<flight number = "XD1235" from = "TRN" to = "MXP" time = "10:00" />
+	
+	
+	<flightInstance number = "XD1235" date="11/02/2010 GMT" status="BOOKING" gate = "0" delay = "9" model = "B747">
+		<passenger name= "mamad" seat = "13F" boarded = "true" />
+		<passenger name= "mamad" seat = "13F" boarded = "true" />
+		<passenger name= "mamad" seat = "13F" boarded = "true" />
+		<passenger name= "mamad" seat = "13F" boarded = "true" />
+		<passenger name= "mamad" seat = "13F" boarded = "true" />
+	</flightInstance>
+		
+	<flightInstance number = "XD1231" date="11/02/2010 GMT" status="DEPARTED" gate = "3" delay = "29" model = "B747" />
+
+	
+
+
+
+
+
+</flightmonitor>

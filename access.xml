@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE system SYSTEM "flightInfo.dtd" >
+<flightMonitor>
+		<aircraft name="B232">
+			<flight id = "S123">
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+			</flight>
+			<flight id = "S13">
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+				<passenger name="mamad"/>
+			</flight>
+		</aircraft>
+</flightMonitor>
